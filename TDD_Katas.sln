@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_FizzBuzz", "FizzBuzz\K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_FizzBuzzTest", "FizzBuzzTest\Kata_FizzBuzzTest.csproj", "{B1215077-7509-42F5-928E-69431568C3B7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata_StringCalculator", "Kata_StringCalculator", "{1693A9FF-9171-415A-B6CD-F899B9CB6C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_StringCalculatorTest", "StringCalculatorTest\Kata_StringCalculatorTest.csproj", "{9E0415C6-199E-41BF-91A8-4431094F3AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_StringCalculator", "StringCalculator\Kata_StringCalculator.csproj", "{A85185D3-5420-4FA3-AFCE-73CF9E8CB655}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +35,14 @@ Global
 		{B1215077-7509-42F5-928E-69431568C3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1215077-7509-42F5-928E-69431568C3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1215077-7509-42F5-928E-69431568C3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0415C6-199E-41BF-91A8-4431094F3AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0415C6-199E-41BF-91A8-4431094F3AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0415C6-199E-41BF-91A8-4431094F3AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0415C6-199E-41BF-91A8-4431094F3AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85185D3-5420-4FA3-AFCE-73CF9E8CB655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85185D3-5420-4FA3-AFCE-73CF9E8CB655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85185D3-5420-4FA3-AFCE-73CF9E8CB655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85185D3-5420-4FA3-AFCE-73CF9E8CB655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +50,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{73D12094-A962-43F0-B1CD-692F7897B5A3} = {13239EFB-0FFE-4A64-BCE3-B76104F2F625}
 		{B1215077-7509-42F5-928E-69431568C3B7} = {13239EFB-0FFE-4A64-BCE3-B76104F2F625}
+		{9E0415C6-199E-41BF-91A8-4431094F3AAE} = {1693A9FF-9171-415A-B6CD-F899B9CB6C9B}
+		{A85185D3-5420-4FA3-AFCE-73CF9E8CB655} = {1693A9FF-9171-415A-B6CD-F899B9CB6C9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {646999C4-8300-4057-9D0C-3FA888334807}
