@@ -12,7 +12,7 @@ namespace Kata_StringCalculatorTest
         [TestMethod]
         [DataRow("0,0", 0)]
         [DataRow("1,0", 1)]
-        [DataRow ("1,1", 2)]
+        [DataRow("1,1", 2)]
         public void Add_Should_Return_Correct_Number(string numbers, int expected)
         {
             // ARRANGE
@@ -28,6 +28,7 @@ namespace Kata_StringCalculatorTest
         [TestMethod]
         [DataRow("0,0", 0, 0)]
         [DataRow("0,1", 0, 1)]
+        [DataRow("0,2", 0, 2)]
         public void CutString_Should_Return_Two_Correct_Numbers(string numbers, int expected1, int expected2)
         {
             // ARRANGE

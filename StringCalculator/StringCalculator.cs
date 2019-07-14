@@ -23,6 +23,15 @@ namespace Kata_StringCalculator
 
         public List<int> CutString(string numbers)
         {
+            List<int> result = new List<int>();
+            var splitNumbers = numbers.Split(',');
+
+            // ToDo go on here
+            foreach(var item in splitNumbers)
+            {
+                int.TryParse(item)
+                result.Add()
+            }
             if(string.Compare(numbers, "0,1") == 0)
             {
                 return new List<int>
