@@ -10,40 +10,17 @@ namespace Kata_StringCalculatorTest
     public class StringCalculatorTest
     {
         [TestMethod]
-        public void Add_Should_Return_0()
+        [DataRow("0,0", 0)]
+        [DataRow("1,0", 1)]
+        [DataRow ("1,1", 2)]
+        public void Add_Should_Return_Correct_Number(string numbers, int expected)
         {
             // ARRANGE
-            string numbers = "0,0";
-            int expected = 0;
             StringCalculator SUT = new StringCalculator();
-            // EXECUTION
-            var actual = SUT.Add(numbers);
-            // ASSERTION
-            expected.Should().Be(actual);
-        }
 
-        [TestMethod]
-        public void Add_Should_Return_1()
-        {
-            // ARRANGE
-            string numbers = "1,0";
-            int expected = 1;
-            StringCalculator SUT = new StringCalculator();
             // EXECUTION
             var actual = SUT.Add(numbers);
-            // ASSERTION
-            expected.Should().Be(actual);
-        }
 
-        [TestMethod]
-        public void Add_Should_Return_2()
-        {
-            // ARRANGE
-            string numbers = "1,1";
-            int expected = 2;
-            StringCalculator SUT = new StringCalculator();
-            // EXECUTION
-            var actual = SUT.Add(numbers);
             // ASSERTION
             expected.Should().Be(actual);
         }
